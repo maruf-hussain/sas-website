@@ -5,15 +5,15 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <Navbar className="w-75 mx-auto "  bg="" expand="lg">
+            <Navbar class='mx-auto' bg="" expand="lg">
       
-      <Navbar.Brand  href="/"><img className='logo-menu' src='https://i.ibb.co/M7Xk5ZW/280409888-1661343877584871-6408246260806431005-n.png' alt='img' ></img></Navbar.Brand> 
+      <Navbar.Brand  href="/"><img className='logo-menu' src='https://i.ibb.co/M7Xk5ZW/280409888-1661343877584871-6408246260806431005-n.png' alt='img'></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto">
-          <Nav.Link className='color-nav' href="/">HOME</Nav.Link>
-          <Nav.Link  href="/about">ABOUT</Nav.Link>
-          <NavDropdown title="WHO WE ARE" id="basic-nav-dropdown">
+        <Nav class='mx-auto d-flex col-sm-4'>
+          <Nav.Link className='nv-menu'  href="/">HOME</Nav.Link>
+          <Nav.Link className='nv-menu' href="/about">ABOUT</Nav.Link>
+          <NavDropdown  title="WHO WE ARE" id="basic-nav-dropdown">
             <NavDropdown.Item href="/finance">Financial System </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Working Area</NavDropdown.Item>
            
@@ -25,7 +25,7 @@ const Header = () => {
             <NavDropdown.Item href="#action/3.4">Office based Facilities</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.4"> Existence of Policy</NavDropdown.Item>
           </NavDropdown>
-          <NavDropdown title="PROGRAM" id="basic-nav-dropdown">
+          <NavDropdown  title="PROGRAM" id="basic-nav-dropdown">
             <NavDropdown.Item href="/economic">Economic Development </NavDropdown.Item>
             <NavDropdown.Item href="/health">Reproductive Health, HIV & AIDS</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Agricultural Development</NavDropdown.Item>
@@ -39,14 +39,14 @@ const Header = () => {
             <NavDropdown.Item href="/training">Training & Research  </NavDropdown.Item>
           </NavDropdown>
      
-          <Nav.Link href="#link">BLOG</Nav.Link>
-          <NavDropdown title="WHAT WE DO" id="basic-nav-dropdown">
+          <Nav.Link className='nv-menu' href="#link">BLOG</Nav.Link>
+          <NavDropdown  title="WHAT WE DO" id="basic-nav-dropdown">
             <NavDropdown.Item href="/approch">Development Approaches</NavDropdown.Item>
             <NavDropdown.Item href="/patrons">Development Patrons</NavDropdown.Item>
            
             <NavDropdown.Item href="/strategy">Strategies</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className='color-nav' href="/contact">CONTACT</Nav.Link>
+          <Nav.Link className='nv-menu' href="/contact">CONTACT</Nav.Link>
           <Link className='donate-button' to='/donate' >DONATE</Link>
         </Nav>
       </Navbar.Collapse>

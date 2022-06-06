@@ -1,12 +1,11 @@
+/* Logo section........................................... */
 .logo-menu{
-    width: 75px;
-    height: 75px;
+    width: 25%;
+   margin-left: 50px;
 }
 
-h2{
-    color: rgb(25, 144, 7);
-}
 
+/* Donate button........................................... */
 .donate-button{
     background-color: rgb(240, 0, 0);
     text-decoration: none;
@@ -14,3 +13,65 @@ h2{
     padding: 5px 10px;
     border-radius: 5px ;
 }
+
+.nv-menu{
+    color: rgb(0, 0, 0);
+}
+
+#basic-nav-dropdown{
+    color: rgb(0, 0, 0);
+}
+.nv-menu:hover{
+    color: rgb(3, 185, 30);
+    border-bottom: 2px solid red;
+}
+
+#basic-nav-dropdown:hover{
+    color: rgb(3, 185, 30);
+    border-bottom: 2px solid red;
+}
+
+
+
+
+/* Responsive section....................................... */
+
+@media only screen and (max-width: 600px) {
+    .col-sm-4{
+        flex-direction: column;
+    }
+
+    .nv-menu{
+        color: rgb(0, 0, 0);
+      
+    }
+    
+    #basic-nav-dropdown{
+        color: rgb(0, 0, 0);
+        
+    }
+
+    .logo-menu{
+        margin-left: 50px;
+    }
+    
+  }
+@media only screen and (max-width: 920px) {
+    .col-sm-4{
+        flex-direction: column;
+    }
+    .logo-menu{
+        margin-left: 210px;
+    }
+
+    .nv-menu{
+        color: rgb(0, 0, 0);
+      
+    }
+    
+    #basic-nav-dropdown{
+        color: rgb(0, 0, 0);
+        
+    }
+  }
+
