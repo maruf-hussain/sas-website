@@ -14,7 +14,7 @@ const Mission = () => {
         <div class='w-50 mx-auto mb-5 '>
                   <h1>OUR MISSION</h1>
                   
-                  <h6 class='mt-5'>SAS works to ensure full potential of male, female, youth & adolescents in development &   empowerments, especially in the health, sanitation & education, agricultural, livelihood and environment sector where the disadvantaged people can identify their problems and ensure participation in planning and resource management for their self-development.</h6>
+                  <h4 class='mt-5 text-start text-dark'>SAS works to ensure full potential of male, female, youth & adolescents in development &   empowerments, especially in the health, sanitation & education, agricultural, livelihood and environment sector where the disadvantaged people can identify their problems and ensure participation in planning and resource management for their self-development.</h4>
                   </div>
               
         

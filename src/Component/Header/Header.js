@@ -8,6 +8,7 @@ const Header = () => {
             <Navbar class='mx-auto' bg="" expand="lg">
       
       <Navbar.Brand  href="/"><img className='logo-menu' src='https://i.ibb.co/M7Xk5ZW/280409888-1661343877584871-6408246260806431005-n.png' alt='img'></img></Navbar.Brand>
+      <h2>Social Advancment Socity</h2>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav class='mx-auto d-flex col-sm-4'>
