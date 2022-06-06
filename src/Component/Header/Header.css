@@ -1,0 +1,16 @@
+.logo-menu{
+    width: 75px;
+    height: 75px;
+}
+
+h2{
+    color: rgb(25, 144, 7);
+}
+
+.donate-button{
+    background-color: rgb(240, 0, 0);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px ;
+}
