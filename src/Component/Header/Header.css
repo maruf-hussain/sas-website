@@ -51,18 +51,15 @@
         
     }
 
-    .logo-menu{
-        margin-left: 50px;
-    }
     
   }
 @media only screen and (max-width: 920px) {
     .col-sm-4{
         flex-direction: column;
     }
-    .logo-menu{
+    /* .logo-menu{
         margin-left: 210px;
-    }
+    } */
 
     .nv-menu{
         color: rgb(0, 0, 0);

@@ -1,0 +1,23 @@
+.who-mai{
+    margin-top: 50px;  
+  }
+  
+  .cad{
+      width: 350px;
+      margin-top: 20px;
+  }
+  
+  
+  .lnk{
+      background-color: rgb(231, 27, 27);
+      padding: 5px 20px;
+      text-decoration: none;
+      color: aliceblue;
+      margin-top: 30px;
+  }
+  .we-do{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 50px;
+  }
