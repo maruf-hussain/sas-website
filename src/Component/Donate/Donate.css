@@ -1,0 +1,21 @@
+.form{
+    text-align: start;
+background-color: rgb(104, 130, 116);
+padding: 20px;
+height: 350px;
+border-radius: 5px;
+color: rgb(0, 0, 0);
+width: 350px;
+}
+
+
+#country{
+  width: 100px;  
+}
+#subject{
+    width: 200px;
+    height: 80px;
+}
+.f-l{
+    width: 80px;
+}
