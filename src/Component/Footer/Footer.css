@@ -1,0 +1,32 @@
+.footer-ma{
+    margin-top: 50px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.imj{
+    width: 80px;
+}
+
+.contact{
+    font-size: x-large;
+    border-bottom: 3px solid red;
+    width: 70px; 
+}
+
+
+.footer-hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+
+
+
+  
+
+       
+   
+  

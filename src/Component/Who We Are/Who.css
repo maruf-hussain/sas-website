@@ -1,0 +1,47 @@
+h3{
+    color: rgb(102, 99, 99);
+    line-height: 40px;
+}
+.imj-who{
+    width: 370px;
+}
+
+.lern{
+   font-size: x-large;
+    color: rgb(128, 125, 125);
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.lern:hover{
+    color: rgb(187, 187, 187);
+    
+}
+
+.lb{
+  border-radius: 5px;
+    margin-left: 10px;
+    padding: 8px 30px;
+    background-color: rgb(254, 0, 17);
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+} 
+
+.lb:hover{
+    color: rgb(150, 150, 150);
+} 
+
+
+
+.sub{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.who-sub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
