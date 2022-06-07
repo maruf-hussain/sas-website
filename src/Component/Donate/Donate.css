@@ -1,15 +1,15 @@
-.form{
+ .form{
     text-align: start;
 background-color: rgb(104, 130, 116);
 padding: 20px;
-height: 350px;
+height: 370px;
 border-radius: 5px;
 color: rgb(0, 0, 0);
 width: 350px;
-}
+} 
 
 
-#country{
+/* #country{
   width: 100px;  
 }
 #subject{
@@ -19,3 +19,11 @@ width: 350px;
 .f-l{
     width: 80px;
 }
+
+
+@media only screen and (max-width: 920px) {
+    h2{
+        display: block;
+        margin-left: 70px;
+    }
+} */

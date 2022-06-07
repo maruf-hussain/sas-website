@@ -7,18 +7,18 @@ const Economic = () => {
              <Header></Header>
             <div class='container'>
             <table class="table">
-  <thead>
+  <thead class='bg-success text-light'>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+    <th scope="col">SL.</th>
+      <th scope="col">Programs </th>
+      <th scope="col">Activities</th>
+      <th scope="col">Duration</th>
     </tr>
   </thead>
   <tbody>
   <tr>
       <th scope="col">SL.</th>
-      <th scope="col">Programs</th>
+      <th scope="col">Programs Name</th>
       <th scope="col">Activities</th>
       <th scope="col">Duration</th>
     </tr>

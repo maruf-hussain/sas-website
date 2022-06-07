@@ -14,6 +14,11 @@ import Economic from './Component/Program/Economic';
 import Enviroment from './Component/Program/Enviroment';
 import Health from './Component/Program/Health';
 import Training from './Component/Program/Training';
+import Commite from './Component/We Do/Commite';
+import Legal from './Component/We Do/Legal';
+import Transport from './Component/We Do/Transport';
+import WorkingArea from './Component/We Do/WorkingArea';
+import WorkingTeam from './Component/We Do/WorkingTeam';
 import Finance from './Component/Who We Are/Finance';
 import Home from './Home/Home';
 
@@ -65,6 +70,21 @@ function App() {
      </Routes>
      <Routes>
      <Route path="goal" element={<Goal />} />
+     </Routes>
+     <Routes>
+     <Route path="transport" element={<Transport />} />
+     </Routes>
+     <Routes>
+     <Route path="area" element={<WorkingArea />} />
+     </Routes>
+     <Routes>
+     <Route path="team" element={<WorkingTeam />} />
+     </Routes>
+     <Routes>
+     <Route path="commite" element={<Commite />} />
+     </Routes>
+     <Routes>
+     <Route path="legal" element={<Legal />} />
      </Routes>
      </BrowserRouter>
     </div>

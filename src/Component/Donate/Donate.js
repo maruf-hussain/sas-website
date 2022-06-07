@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import './Donate.css'
+
 const Donate = () => {
     return (
         <div>
@@ -11,7 +12,7 @@ const Donate = () => {
 
 <div>
 <div class="form mt-5">
-<form className='' action="action_page.php">
+ <form className='' action="action_page.php">
 
 <label for="fname">First Name</label><br/>
 <input type="text" id="fname" name="firstname" placeholder="Your name.."></input><br/>
@@ -270,7 +271,9 @@ const Donate = () => {
 <textarea id="subject" name="subject" placeholder="Write something.." ></textarea><br/>
 <input type="submit" value="Submit"></input>
 
-</form>
+</form> 
+
+
 </div>
 </div>
 
@@ -279,6 +282,7 @@ const Donate = () => {
       
 
       </div>
+   
       
         </div>
       

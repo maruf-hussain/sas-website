@@ -8,20 +8,19 @@ const Header = () => {
             <Navbar class='mx-auto' bg="" expand="lg">
       
       <Navbar.Brand  href="/"><img className='logo-menu' src='https://i.ibb.co/M7Xk5ZW/280409888-1661343877584871-6408246260806431005-n.png' alt='img'></img></Navbar.Brand>
-      <h2>Social Advancment Socity</h2>
+      <h2 className='logo-nam'>Social Advancment Socity</h2>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav class='mx-auto d-flex col-sm-4'>
           <Nav.Link className='nv-menu'  href="/">HOME</Nav.Link>
-          <Nav.Link className='nv-menu' href="/about">ABOUT</Nav.Link>
           <NavDropdown  title="WHO WE ARE" id="basic-nav-dropdown">
             <NavDropdown.Item href="/finance">Financial System </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Working Area</NavDropdown.Item>
+            <NavDropdown.Item href="/area">Working Area</NavDropdown.Item>
            
-            <NavDropdown.Item href="#action/3.4">Working team</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Executive Committee</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Legal Status </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Vehicle and Transportation</NavDropdown.Item>
+            <NavDropdown.Item href="/team">Working team</NavDropdown.Item>
+            <NavDropdown.Item href="/commite">Executive Committee</NavDropdown.Item>
+            <NavDropdown.Item href="/legal">Legal Status </NavDropdown.Item>
+            <NavDropdown.Item href="/transport">Vehicle and Transportation</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.4">Training Facilitie</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.4">Office based Facilities</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.4"> Existence of Policy</NavDropdown.Item>

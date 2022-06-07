@@ -7,7 +7,7 @@ const Goal = () => {
             <Header></Header>
           <div class='container'>
             
-            <div class='w-50   mx-auto '>
+            <div class='w-75   mx-auto '>
             <p>Goal: To uplift the socio-economic status, livelihood security and improve quality of life of the poor and the community people so that they can take part in development process. </p>
             </div>
            

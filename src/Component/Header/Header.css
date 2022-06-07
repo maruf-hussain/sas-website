@@ -4,7 +4,7 @@
    margin-left: 50px;
 }
 
-h2{
+.logo-nam{
     display: none;
 }
 /* Donate button........................................... */
@@ -53,9 +53,9 @@ h2{
         
     }
 
-    h2{
+    .logo-nam{
         display: block;
-        margin-left: 50px;
+        margin-left: 70px;
     }
 
   }

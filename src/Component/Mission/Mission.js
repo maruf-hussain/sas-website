@@ -11,10 +11,10 @@ const Mission = () => {
     return (
         <div class='who-mai'>
         <div class='row'>
-        <div class='w-50 mx-auto mb-5 '>
+        <div class=' mx-auto mb-5 '>
                   <h1>OUR MISSION</h1>
                   
-                  <h4 class='mt-5 text-start text-dark'>SAS works to ensure full potential of male, female, youth & adolescents in development &   empowerments, especially in the health, sanitation & education, agricultural, livelihood and environment sector where the disadvantaged people can identify their problems and ensure participation in planning and resource management for their self-development.</h4>
+                  <h4 class='  mx-auto text-dark'>SAS works to ensure full potential of male, female,youth adolescents sector where disadvantaged more people can<br/> identify-their problems and ensure.</h4>
                   </div>
               
         

@@ -9,7 +9,7 @@ const Contact = () => {
             <Header></Header>
              <div class='container mt-5 w-75'>
             <h1 className='contac'>Contact Us</h1>
-            <h2>BASIC INFORMATION OF THE ORGANIZATION : </h2>
+            
             <p>Name Of Organization	:	Social Advancement Society<br/>
 Acronym	:	 SAS<br/>
 Type of Organization	:	SAS is a non-government, non-profit and non-political voluntary social development organization<br/>

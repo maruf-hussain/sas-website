@@ -7,7 +7,7 @@ const Health = () => {
             <Header></Header>
             <div class='container'>
             <table class="table">
-  <thead>
+  <thead class='bg-success text-light'>
     <tr>
     <th scope="col">SL.</th>
       <th scope="col">Programs</th>
