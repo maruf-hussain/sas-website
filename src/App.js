@@ -6,6 +6,7 @@ import Approch from './Component/Development/Approch';
 import Patrons from './Component/Development/Patrons';
 import Strategy from './Component/Development/Starategy';
 import Donate from './Component/Donate/Donate';
+import Payment from './Component/Donate/Payment';
 import Goal from './Component/Mission/Goal';
 import Learnmore from './Component/Mission/Learnmore';
 import Objective from './Component/Mission/Objective';
@@ -85,6 +86,9 @@ function App() {
      </Routes>
      <Routes>
      <Route path="legal" element={<Legal />} />
+     </Routes>
+     <Routes>
+     <Route path="payment" element={<Payment />} />
      </Routes>
      </BrowserRouter>
     </div>

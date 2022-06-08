@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 import './Donate.css'
 
@@ -269,7 +270,7 @@ const Donate = () => {
 
 <label for="subject">Description</label><br/>
 <textarea id="subject" name="subject" placeholder="Write something.." ></textarea><br/>
-<input type="submit" value="Submit"></input>
+<Link to='/payment'><button>Donate Now</button></Link>
 
 </form> 
 

@@ -1,0 +1,25 @@
+.pament-m{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-pay{
+    margin-right: 50px;
+    width: 250px;
+}
+
+.pay-main{
+    width: 320px;
+    background-color: rgb(96, 118, 121);
+  padding: 5px;
+  border-radius: 10px;
+ 
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .pay-main{
+        height: 200px;
+        margin-top: 50px;
+    }}
