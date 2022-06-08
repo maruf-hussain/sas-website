@@ -1,6 +1,6 @@
  .form{
     text-align: start;
-background-color: rgb(106, 163, 179);
+background-color: rgb(63, 108, 103);
 padding: 20px;
 height: 370px;
 border-radius: 5px;
@@ -8,6 +8,22 @@ color: rgb(0, 0, 0);
 width: 350px;
 } 
 
+.don-butt{
+    padding: 5px 25px;
+    color: aliceblue;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.don-butt:hover{
+  
+    color: rgb(0, 2, 4);
+    background-color: rgb(16, 227, 30);
+
+  
+    
+}
 
 /* #country{
   width: 100px;  

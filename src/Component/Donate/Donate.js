@@ -5,7 +5,7 @@ import './Donate.css'
 
 const Donate = () => {
     return (
-        <div>
+        <div class='container'>
             <Header></Header>
   <div class='container'>
         <div class='d-flex justify-content-center flex-wrap'>
@@ -270,7 +270,7 @@ const Donate = () => {
 
 <label for="subject">Description</label><br/>
 <textarea id="subject" name="subject" placeholder="Write something.." ></textarea><br/>
-<Link to='/payment'><button>Donate Now</button></Link>
+<Link to='/payment'><button class='don-butt'>Donate Now</button></Link>
 
 </form> 
 
