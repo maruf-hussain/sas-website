@@ -3,9 +3,9 @@ import Header from '../Header/Header';
 
 const Enviroment = () => {
     return (
-        <div>
+        <div class='container'>
             <Header></Header>
-            <div class='container'>
+            <div>
             <table class="table">
   <thead>
     <tr>

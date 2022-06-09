@@ -39,7 +39,7 @@
 /* Responsive section....................................... */
 
 @media only screen and (max-width: 450px) {
-    .col-sm-4{
+    .nav{
         flex-direction: column;
     }
 
@@ -55,7 +55,7 @@
 
     .logo-nam{
         display: block;
-        margin-left: 60px;
+        margin-left: 30px;
       
     }
     .logo-menu{
@@ -76,6 +76,9 @@
     #basic-nav-dropdown{
         color: rgb(0, 0, 0);
         
+    }
+    .nav{
+        flex-direction: column;
     }
   }
 @media only screen and (max-width: 1230px) {

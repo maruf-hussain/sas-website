@@ -3,9 +3,9 @@ import Header from '../Header/Header';
 
 const Economic = () => {
     return (
-        <div>
+        <div class='container'>
              <Header></Header>
-            <div class='container'>
+            <div>
             <table class="table">
   <thead class='bg-success text-light'>
     <tr>

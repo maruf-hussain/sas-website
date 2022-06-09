@@ -1,23 +1,31 @@
-.who-mai{
-    margin-top: 50px;  
-  }
-  
-  .cad{
-      width: 350px;
-      margin-top: 20px;
-  }
-  
-  
+ 
   .lnk{
       background-color: rgb(231, 27, 27);
       padding: 5px 20px;
       text-decoration: none;
       color: aliceblue;
-      margin-top: 30px;
+      
   }
-  .we-do{
+  .we-sub{
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-top: 50px;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+      
+  }
+  .we-cad{
+      margin-left: 20px;
+  }
+
+  @media only screen and (max-width: 450px){
+      .we-sub{
+          flex-direction: column;
+         
+      }
+      .we-cad{
+        margin-top: 50px;
+      }
   }

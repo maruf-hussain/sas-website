@@ -4,9 +4,9 @@ import Header from '../Header/Header';
 
 const Approch = () => {
     return (
-        <div>
+        <div class='container '>
             <Header></Header>
-             <div class='container w-75'>
+             <div>
             <div>
             <h2 class='text-start'>Development Approaches :</h2>
            <div>

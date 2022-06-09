@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 import './Header.css'
 const Header = () => {
     return (
-        <div>
-            <Navbar class='mx-auto' bg="" expand="lg">
+        <div class='container'>
+            <Navbar class='mx-auto'  expand="lg">
       
       <Navbar.Brand  href="/"><img className='logo-menu' src='https://i.ibb.co/M7Xk5ZW/280409888-1661343877584871-6408246260806431005-n.png' alt='img'></img></Navbar.Brand>
       <h2 className='logo-nam'>Social Advancment Socity</h2>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav class='mx-auto d-flex col-sm-4'>
+        <Nav class='mx-auto d-flex nav'>
           <Nav.Link className='nv-menu'  href="/">HOME</Nav.Link>
           <NavDropdown  title="WHO WE ARE" id="basic-nav-dropdown">
             <NavDropdown.Item href="/finance">Financial System </NavDropdown.Item>

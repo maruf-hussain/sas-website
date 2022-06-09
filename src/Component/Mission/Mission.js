@@ -14,7 +14,7 @@ const Mission = () => {
         <div class=' mx-auto mb-5 '>
                   <h1>OUR MISSION</h1>
                   
-                  <h4 class='  mx-auto text-dark'>SAS works to ensure full potential of male, female,youth adolescents sector where disadvantaged more people can<br/> identify-their problems and ensure.</h4>
+                  <h4 class='  mx-auto text-dark w-75'>SAS works to ensure full potential of male, female,youth adolescents sector where disadvantaged more people can<br/> identify-their problems and ensure.</h4>
                   </div>
               
         

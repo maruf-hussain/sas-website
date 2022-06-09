@@ -5,9 +5,9 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div>
+        <div class='container'>
             <Header></Header>
-             <div class='container mt-5 w-75'>
+             <div>
             <h1 className='contac'>Contact Us</h1>
             
             <p>Name Of Organization	:	Social Advancement Society<br/>

@@ -4,9 +4,9 @@ import Header from '../Header/Header';
 
 const Objective = () => {
     return (
-        <div>
+        <div class='container'>
              <Header></Header>
-            <div class='w-75 container  mx-auto '>
+            <div>
             <p>Objectives :
 To organize the target peoples into group to develop unity, solidarity among them and thus develop a collective strength and institutional bases so that can ensure their individual and collective development.<br/>
 To develop their consciousness and awareness about their position in the social system.<br/>

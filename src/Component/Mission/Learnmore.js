@@ -4,9 +4,9 @@ import Header from '../Header/Header';
 
 const Learnmore = () => {
     return (
-        <div>
+        <div class='container'>
             <Header></Header>
-             <div class='container w-75'>
+             <div>
 <div>
 <h2 class='text-left'>Background of Establishment:</h2>
 <p>

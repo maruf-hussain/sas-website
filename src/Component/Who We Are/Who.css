@@ -2,8 +2,10 @@ h3{
     color: rgb(102, 99, 99);
     line-height: 40px;
 }
+
+
 .imj-who{
-    width: 370px;
+    width: 300px;
 }
 
 .lern{
@@ -40,8 +42,13 @@ h3{
     flex-wrap: wrap;
 }
 
-.who-sub{
+.who-sab{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 650px) {
+    .who-sab{
+        flex-direction: column;
+    } 
 }

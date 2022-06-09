@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import './Who.css'
 const Who = () => {
     return (
-        <div className='container who-mai'>
+        <div className='container mt-5'>
           <div class='row' >
 
-<div class='who-sub'>
+<div className='who-sab'>
 <div>
 <img class='imj-who' src='https://img.freepik.com/free-vector/businessman-top-looking-into-telescope-employees-business-opportunity-bizopp-franchising-distribution-concept-white-background_335657-2028.jpg?t=st=1654313429~exp=1654314029~hmac=adfcbaacde7ba7a592c65bfec2e9b9a5cc390a1393475793ef4494ae251d6d14&w=996
 ' alt='img'></img>

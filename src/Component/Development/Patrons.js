@@ -3,9 +3,9 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 const Patrons = () => {
     return (
-        <div>
+        <div class='container '>
             <Header></Header>
-            <div class='container w-75'>
+            <div>
            <h2 class='text-start'>Development Patrons:</h2>
 <p>
 Ecologically vulnerable community.<br/>

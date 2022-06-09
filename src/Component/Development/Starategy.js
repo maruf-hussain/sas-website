@@ -4,9 +4,9 @@ import Header from '../Header/Header';
 
 const Strategy = () => {
     return (
-        <div>
+        <div class='container '>
             <Header></Header>
-            <div class='container w-75'>
+            <div>
     <h2 class='text-start'>Strategies: </h2> 
     <p > with the development partner organizations. Sharing ideas,   experiences, and wishes with others that help to enrich organizational strength. <br/>
 The organization works as an animator, stimulator and cooperator in the process of development and improvement of the situation of the target peoples. The organization intervention supports and services are guided on the principal “build on what they have and people themselves build their own fortunes.
