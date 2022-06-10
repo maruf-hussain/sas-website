@@ -1,4 +1,6 @@
- 
+ .we-do{
+   margin-top: 100px;
+ }
   .lnk{
       background-color: rgb(231, 27, 27);
       padding: 5px 20px;
@@ -20,12 +22,15 @@
       margin-left: 20px;
   }
 
-  @media only screen and (max-width: 450px){
+  @media only screen and (max-width: 600px){
       .we-sub{
           flex-direction: column;
          
       }
       .we-cad{
         margin-top: 50px;
+      }
+      h4{
+       text-align: center;
       }
   }
