@@ -1,0 +1,14 @@
+.pdf-but{
+    margin-top: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.pdf-but:hover{
+  
+    background-color: rgb(179, 179, 179);
+    
+   
+}

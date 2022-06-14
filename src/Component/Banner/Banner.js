@@ -1,11 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import Portfolio from '../Portfolio/Portfolio';
 import './Banner.css'
 const Banner = () => {
     return (
         <div class='mt-5'>
         <Carousel>
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={20000}>
             <img
               className="d-block banner  w-100 mx-auto"
               src="https://t4.ftcdn.net/jpg/02/44/58/27/240_F_244582708_ZJGzPhHSK36iIlE1IosIRQe7553D4ThU.jpg"
@@ -13,7 +14,7 @@ const Banner = () => {
             />
             
           </Carousel.Item>
-          <Carousel.Item interval={500}>
+          <Carousel.Item interval={15000}>
             <img
               className="d-block banner w-100 mx-auto"
               src="https://t4.ftcdn.net/jpg/02/05/25/95/240_F_205259502_5xqjcHxIiuGFekk0BMyVy9G9Oaz8Ars6.jpg"
@@ -30,6 +31,7 @@ const Banner = () => {
           
           </Carousel.Item>
         </Carousel>
+        <Portfolio></Portfolio>
             </div>
     );
 };

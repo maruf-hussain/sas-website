@@ -30,7 +30,7 @@ Barisal, Bangladesh.<br/>
 
 Dhaka Office: Azad Center, Suite# 7/A (Lebel-7),
 55, PUrana Paltan, Dhaka-1000, Bangladesh.<br/>
-Phone: 0088-02-9559539, cell# 01738635971, 01714806502<br/>
+Phone: 02-223385580, cell# 01738635971, 01714806502<br/>
 
 E-mail: sas.bd2020@gmail.com,   www.ngosas.org</p>
         </div>

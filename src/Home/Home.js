@@ -15,6 +15,7 @@ const Home = () => {
            <Mission></Mission>
            <Who></Who>
            <Footer></Footer>
+           <div></div>
         </div>
     );
 };
