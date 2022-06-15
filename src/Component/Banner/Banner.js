@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import Portfolio from '../Portfolio/Portfolio';
+
 import './Banner.css'
 const Banner = () => {
     return (
@@ -31,7 +31,7 @@ const Banner = () => {
           
           </Carousel.Item>
         </Carousel>
-        <Portfolio></Portfolio>
+       
             </div>
     );
 };

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Portfolio from '../Portfolio/Portfolio';
+
+
 
 import './Header.css'
 const Header = () => {
@@ -48,8 +49,10 @@ const Header = () => {
            
             <NavDropdown.Item href="/strategy">Strategies</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link className='nv-menu' href="/about">ABOUT</Nav.Link>
           <Nav.Link className='nv-menu' href="/contact">CONTACT</Nav.Link>
           <Link className='donate-button' to='/donate' >DONATE</Link>
+         
           
         </Nav>
       </Navbar.Collapse>

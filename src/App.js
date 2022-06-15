@@ -1,6 +1,7 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Approch from './Component/Development/Approch';
 import Patrons from './Component/Development/Patrons';
@@ -89,6 +90,9 @@ function App() {
      </Routes>
      <Routes>
      <Route path="payment" element={<Payment />} />
+     </Routes>
+     <Routes>
+     <Route path="about" element={<About />} />
      </Routes>
      </BrowserRouter>
     </div>

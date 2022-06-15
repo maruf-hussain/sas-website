@@ -4,6 +4,8 @@
     border: none;
     border-radius: 5px;
     color: aliceblue;
+    width: 100px;
+    height: 50px;
 }
 
 .pdf-but:hover{
