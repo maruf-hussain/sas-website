@@ -13,7 +13,7 @@ const Legal = () => {
       <th scope="col">Name of the Institute</th>
       <th scope="col">Registration No</th>
       <th scope="col">Date Of Registration</th>
-      <th scope="col">Remark</th>
+    
     </tr>
   </thead>
   <tbody>
@@ -22,7 +22,7 @@ const Legal = () => {
       <th scope="col">Social Welfare</th>
       <th scope="col">Bari-660/2000</th>
       <th scope="col">23/08/2003</th>
-      <th scope="col"></th>
+
       
     </tr>
   <tr>
@@ -30,7 +30,7 @@ const Legal = () => {
       <th scope="col">NGO Affairs Bureau</th>
       <th scope="col">FDR-2162</th>
       <th scope="col">21/11/2006</th>
-      <th scope="col"></th>
+     
       
     </tr>
   <tr>
@@ -38,7 +38,7 @@ const Legal = () => {
       <th scope="col">Registration no.</th>
       <th scope="col">DNC 0055</th>
       <th scope="col">06/02/2006</th>
-      <th scope="col"></th>
+     
       
     </tr>
    
