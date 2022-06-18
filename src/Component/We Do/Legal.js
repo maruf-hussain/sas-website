@@ -10,7 +10,7 @@ const Legal = () => {
   <thead class='bg-success text-light'>
     <tr>
       <th scope="col">01.</th>
-      <th scope="col">Name of the Concerned Department/ Institute</th>
+      <th scope="col">Name of the Institute</th>
       <th scope="col">Registration No</th>
       <th scope="col">Date Of Registration</th>
       <th scope="col">Remark</th>
@@ -19,7 +19,7 @@ const Legal = () => {
   <tbody>
   <tr>
   <th scope="col">01</th>
-      <th scope="col">Department of Social Welfare</th>
+      <th scope="col">Social Welfare</th>
       <th scope="col">Bari-660/2000</th>
       <th scope="col">23/08/2003</th>
       <th scope="col"></th>
@@ -35,8 +35,8 @@ const Legal = () => {
     </tr>
   <tr>
   <th scope="col">03</th>
-      <th scope="col">Department of Narcotics Control, Registration no.</th>
-      <th scope="col">DNC –0055</th>
+      <th scope="col">Registration no.</th>
+      <th scope="col">DNC 0055</th>
       <th scope="col">06/02/2006</th>
       <th scope="col"></th>
       

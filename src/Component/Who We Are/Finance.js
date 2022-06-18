@@ -9,11 +9,10 @@ const Finance = () => {
             <table class="table">
   <thead class='bg-success text-light'>
     <tr>
-      <th scope="col">Name of the Bank</th>
-      <th scope="col">Branch with address</th>
-      <th scope="col">Name of the account</th>
-      <th scope="col">Type of Bank A/C</th>
-      <th scope="col">Account No.(s)</th>
+      <th scope="col">Bank Name</th>
+      <th scope="col">Branch Address</th>
+      <th scope="col">Account Name</th>
+      <th scope="col">C/A Account No</th>
     </tr>
   </thead>
   <tbody>
@@ -21,8 +20,7 @@ const Finance = () => {
       <th scope="col">Dutch-Bangla Bank Ltd.</th>
       <th scope="col">Dholaikhal Branch, Dhaka</th>
       <th scope="col">Social Advancement Society</th>
-      <th scope="col">Current Account</th>
-      <th scope="col">3051200000267</th>
+      <th scope="col">3051200<br/>000267</th>
     </tr>
    
   </tbody>
