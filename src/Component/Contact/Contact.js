@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div class='container'>
             <Header></Header>
-             <div>
+             <div  class='w-50   mx-auto '>
             <h1 className='contac'>Contact Us</h1>
             
             <p>Name Of Organization	:	Social Advancement Society<br/>

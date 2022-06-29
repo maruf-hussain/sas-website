@@ -4,13 +4,12 @@ import './WeDo.css'
 const WeDo = () => {
     return (
         <div className='we-do' >
-<div><h1>WHAT WE DO</h1></div>
+          <h1 class='text-center'>WHAT WE DO</h1>
 <div className='we-sub'>
-
   <div>
     <div><img  src="https://img.freepik.com/free-photo/business-team-holding-together-fresh-green-sprout_252847-28925.jpg?size=626&ext=jpg&uid=R55464876&ga=GA1.2.1476649080.1653429844" class="card-img-top" alt="..."></img></div>
-    <div><h4>Development Approaches</h4>
-    <Link className='lnk' to="/approch">Read More</Link>
+    <div><h4 className='fl'>Development Approaches</h4>
+    <Link  className='lnk fd' to="/aproch">Read More</Link>
     </div>
   </div>
   <div className='we-cad'>

@@ -10,11 +10,20 @@
 /* Donate button........................................... */
 .donate-button{
     background-color: rgb(240, 0, 0);
-    text-decoration: none;
+ border: none;
     color: aliceblue;
-    padding: 5px 10px;
+    padding: 0px 20px;
     border-radius: 5px ;
     margin-right: 10px;
+    
+}
+.bln{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bln:hover{
+   
+    color: rgb(0, 0, 0);
 }
 
 .nv-menu{
@@ -34,7 +43,14 @@
     border-bottom: 2px solid red;
 }
 
-
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(3, 185, 30);
+    border-bottom: 2px solid red;
+}
 
 
 /* Responsive section....................................... */
@@ -56,7 +72,7 @@
 
     .logo-nam{
         display: block;
-        margin-left: 30px;
+        margin-left: 40px;
       
     }
     .logo-menu{

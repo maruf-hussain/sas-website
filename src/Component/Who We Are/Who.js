@@ -15,8 +15,8 @@ const Who = () => {
 
 <div>
 <h1 class=''>WHO WE ARE</h1>  
-<h3>SAS works to ensure full potential of male, female, youth & adolescents</h3>
-<h3>To organize the target peoples into group to develop unity</h3>
+<h3>SAS works to ensure full <br/>potential of male, female, youth & adolescents</h3>
+<h3>To organize the target peoples into group </h3>
 <h3>SAS believes in partnership work</h3>
 <Link className='lern' to="/learnmore">Learn More</Link>
 </div>

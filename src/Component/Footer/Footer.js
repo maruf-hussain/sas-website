@@ -11,7 +11,7 @@ const Footer = () => {
         <div class='row'>
         <div class='col-md-6 col-sm-4 mx-auto'>
           
-          <img  class='pt-2 imj' src='https://i.ibb.co/M7Xk5ZW/280409888-1661343877584871-6408246260806431005-n.png' alt='img'></img>
+          <img  class='pt-2  imj' src='https://i.ibb.co/M7Xk5ZW/280409888-1661343877584871-6408246260806431005-n.png' alt='img'></img>
           
          
          <div>
@@ -29,7 +29,7 @@ const Footer = () => {
 Barisal, Bangladesh.<br/>
 
 Dhaka Office: Azad Center, Suite# 7/A (Lebel-7),
-55, PUrana Paltan, Dhaka-1000, Bangladesh.<br/>
+55, Purana Paltan, Dhaka-1000, Bangladesh.<br/>
 Phone: 02-223385580, cell# 01738635971, 01714806502<br/>
 
 E-mail: sas.bd2020@gmail.com,   www.ngosas.org</p>

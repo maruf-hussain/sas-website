@@ -6,6 +6,7 @@
       padding: 5px 20px;
       text-decoration: none;
       color: aliceblue;
+    
       
   }
   .we-sub{
@@ -27,10 +28,14 @@
           flex-direction: column;
          
       }
+      .fd{
+        margin-left: 20px;
+      }
+      .fl{
+        margin-left: 15px;
+      }
       .we-cad{
         margin-top: 50px;
       }
-      h4{
-       text-align: center;
-      }
+     
   }

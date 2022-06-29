@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 
-const Finance = () => {
+const Financee = () => {
     return (
         <div class='container'>
             <Header></Header>
@@ -31,4 +31,4 @@ const Finance = () => {
     );
 };
 
-export default Finance;
+export default Financee;

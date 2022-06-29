@@ -6,6 +6,7 @@ const About = () => {
     return (
         <div class='container'>
             <Header></Header>
+            <div class='w-75   mx-auto '>
             <h1>SAS Portfolio</h1>
             <p>Social Advancement Society (SAS) is a non-governmental and non-profitable voluntary social
 development organization established in the year 1996 by a group of young men and women
@@ -30,7 +31,9 @@ of HIV and AIDS and STIs. Bangladesh being a signatory country of SDGs committed
 the goals. SAS believes in the norms and strategic weapons of Poverty Reduction Strategy (PRS)
 and always acknowledge with its full participation. SAS is also committed to contribute with its
 limited efforts and endeavors and intend to share in the national development.</p>
-             <Portfolio></Portfolio>
+             <Portfolio class='mb-4'></Portfolio>
+            </div>
+         
         </div>
     );
 };

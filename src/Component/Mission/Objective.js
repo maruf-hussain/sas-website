@@ -6,7 +6,7 @@ const Objective = () => {
     return (
         <div class='container'>
              <Header></Header>
-            <div>
+            <div  class='w-75   mx-auto '>
             <p>Objectives :
 To organize the target peoples into group to develop unity, solidarity among them and thus develop a collective strength and institutional bases so that can ensure their individual and collective development.<br/>
 To develop their consciousness and awareness about their position in the social system.<br/>

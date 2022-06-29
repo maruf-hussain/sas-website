@@ -6,18 +6,18 @@ const Banner = () => {
     return (
         <div class='mt-5'>
         <Carousel>
-          <Carousel.Item interval={20000}>
+          <Carousel.Item interval={10000}>
             <img
               className="d-block banner  w-100 mx-auto"
-              src="https://t4.ftcdn.net/jpg/02/44/58/27/240_F_244582708_ZJGzPhHSK36iIlE1IosIRQe7553D4ThU.jpg"
+              src="https://i.ibb.co/ykwY589/01.jpg"
               alt="First slide"
             />
             
           </Carousel.Item>
-          <Carousel.Item interval={15000}>
+          <Carousel.Item interval={5000}>
             <img
               className="d-block banner w-100 mx-auto"
-              src="https://t4.ftcdn.net/jpg/02/05/25/95/240_F_205259502_5xqjcHxIiuGFekk0BMyVy9G9Oaz8Ars6.jpg"
+              src="https://i.ibb.co/R6yJrfM/04.jpg"
               alt="Second slide"
             />
             
@@ -25,7 +25,15 @@ const Banner = () => {
           <Carousel.Item>
             <img
               className="d-block banner w-100 mx-auto"
-              src="https://t4.ftcdn.net/jpg/02/16/66/29/240_F_216662905_oZJORSfPuVWSFKagVhI7qnR1612uzogd.jpg"
+              src="https://i.ibb.co/6Bxk3Tp/03.jpg"
+              alt="Second slide"
+            />
+            
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block banner w-100 mx-auto"
+              src="https://i.ibb.co/DbgjTVK/02.jpg"
               alt="Third slide"
             />
           
